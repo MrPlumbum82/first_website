@@ -4,24 +4,75 @@
         <title>
             My First Website
         </title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         <h1>
-            Welcome to my First Website
+            Welcome to my First Website!
         </h1>
-        <h2>My name is Sadan</h2>
-        <p>I'm a full stack web developer with a passion for linux. I work at S Corp.biz as the Cheif Technical Officer.</p>
-        <h2>List of Skills</h2>
-        <ul>
-            <li>git</li>
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-            <li>react</li>
-            <li>angular</li>
-            <li>c#</li>
-            <li>python</li>
-            <li>nodejs</li>
-        </ul>
+
+        <div id="description" class="container">
+            <h2>My name is Sadan</h2>
+            <p>I'm a 30 year old tech geek with an obsession for the outdoors. I also am a full stack web developer with a passion for linux. I work at S Corp.biz as the Cheif Technical Officer.</p>
+        </div>
+
+        <div class="flex-container">
+            <div id="skills" class="container">
+                <h2>List of Skills</h2>
+                <ul>
+                    <li>git</li>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>react</li>
+                    <li>angular</li>
+                    <li>c#</li>
+                    <li>python</li>
+                    <li>nodejs</li>
+                </ul>
+            </div>
+
+            <div id="personal-picture" class="container">
+                <h3>Me in the wild</h3>
+                <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x4.jpg" alt="Picture of me" height="200px">
+            </div>
+
+            <div id="find-me" class="container">
+                <h3>Find me</h3>
+                <p>If you want to contact me, you can find me on <a href="https://github.com/MrPlumbum82">github</a>, facebook, instagram.</p>
+            </div>
+        </div>
+
+        <div id="skills-table" class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency</th>
+                        <th>Years Experience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Git</td>
+                        <td>Beginner</td>
+                        <td>Less than 1</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                        <td>Less than 1</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                        <td>Less than 1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Including the JavaScript -->
+         <script src="./script.js"></script>
     </body>
 </html>

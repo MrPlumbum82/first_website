@@ -1,0 +1,65 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+}
+
+.container {
+    padding: 50px;
+    margin: 50px;
+}
+
+#description {
+    background-color: aqua;
+}
+
+#skills {
+    background-color: blueviolet;
+}
+
+#personal-picture {
+    background-color: chocolate;
+}
+
+#find-me {
+    background-color: gold;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #a4a4a4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #a1a1a1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
